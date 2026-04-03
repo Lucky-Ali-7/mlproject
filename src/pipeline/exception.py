@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 # Configure basic logging to console if not already configured
 if not logging.getLogger().hasHandlers():
